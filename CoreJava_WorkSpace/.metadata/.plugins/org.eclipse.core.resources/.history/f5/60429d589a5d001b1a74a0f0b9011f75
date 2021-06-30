@@ -1,0 +1,31 @@
+package com.seind.test;
+
+public class Palindrom {
+	public void reverseString(){
+		int n=1221;
+		int r=0,sum=0;
+		while(n>0){
+			
+		}
+	}
+
+	public static void main(String[] args) {
+		int n=1221,r,sum=0;
+		int temp=n;
+		while(n>0){
+			r=n%10;
+			sum=sum*10+r;
+			n=n/10;
+		}
+		//n=temp;
+		if(sum==temp){
+			System.out.println("palindrom");
+		}
+		else{
+			System.out.println("not palindrom");
+		}
+		
+
+	}
+
+}

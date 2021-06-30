@@ -1,0 +1,26 @@
+package com.seind.test;
+
+import java.util.Scanner;
+
+public class ReaderClass {
+	
+	public void add(){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter Two values");
+		int i=sc.nextInt();
+		int j=sc.nextInt();
+		int total=i+j;
+		System.out.println("Addition is ="+total);
+		System.out.println("Add function..");
+	}
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ReaderClass rc=new ReaderClass();
+		rc.add();
+
+	}
+
+}

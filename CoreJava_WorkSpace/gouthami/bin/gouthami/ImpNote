@@ -1,0 +1,13 @@
+Statement st =con.createStatment();
+st.executeUpdate("creat table student(sno number(3),sname varchar2(10),smarks number(6,2))");
+System.out.println("table is created");
+=================================================================================================
+Oracle 11g/12c==ojdbc14.jar
+Oracle 19c==ojdbc10.jar
+
+
+
+
+
+========================================================================================================
+

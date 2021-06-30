@@ -1,0 +1,34 @@
+package com.seind.test;
+
+import java.util.Scanner;
+
+public class NthPrimeNumber {
+
+	public static void main(String[] args) {
+		
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter number nth number");
+		int n=sc.nextInt();
+		int count;
+		int numcount=0;
+		for(int i=1;i<=100000;i++) {
+			
+			count=0;
+			
+			for(int j=1; j<=i;j++) {
+				
+				if(i%j==0)
+			count++;
+			}
+			
+				if(count==2)
+					numcount++;
+		
+				if(numcount==n)
+					System.out.println("the Nth number is" + i);
+
+	}
+
+}
+}
